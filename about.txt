@@ -1,0 +1,24 @@
+
+======================================================================
+======================================================================
+ Welcome to the Python Debugging Information Utility ABOUT.PY
+ Date and Time: 2023-08-31 at 05:02 PM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: AMD64
+ Python Version: 3.11.5
+ Python Build Date and Compiler: tags/v3.11.5:cce6ba9 with Aug 24 2023 14:38:34
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         C:\Users\jarro\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+ Path to virtual environment: C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1520.0_x64__qbz5n2kfra8p0
+ Current Working Directory:   C:\Users\jarro\OneDrive\Documents\44671 STREAMING DATA\Concurrent_Processing_Shared_Resources
+ Path to source directory:    c:\Users\jarro\OneDrive\Documents\44671 STREAMING DATA\Concurrent_Processing_Shared_Resources
+ Path to script file:         c:\Users\jarro\OneDrive\Documents\44671 STREAMING DATA\Concurrent_Processing_Shared_Resources\about.py
+ User's Home Directory:       C:\Users\jarro
+ Terminal Environment:        VS Code
+ Terminal Type:               cmd.exe
+ Git available in PATH:       True 
+======================================================================
+======================================================================

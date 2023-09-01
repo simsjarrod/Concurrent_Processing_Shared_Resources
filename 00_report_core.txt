@@ -1,0 +1,25 @@
+
+======================================================================
+======================================================================
+ Welcome to NW Diagnostics!
+ At: 2023-08-31 at 08:37 PM
+ Operating System: nt Windows 10
+ System Architecture: 64bit
+ Number of CPUs: 8
+ Machine Type: AMD64
+ Python Version: 3.10.9
+ Python Build Date and Compiler: main with Mar  1 2023 18:18:15
+ Python Implementation: CPython
+ Active pip environment: None
+ Path to Interpreter:         C:\Users\jarro\anaconda3\python.exe
+ Path to virtual environment: C:\Users\jarro\anaconda3
+ Current Working Directory:   C:\Users\jarro\OneDrive\Documents\44671 STREAMING DATA\Concurrent_Processing_Shared_Resources
+ Path to source directory:    C:\Users\jarro\OneDrive\Documents\44671 STREAMING DATA\Concurrent_Processing_Shared_Resources
+ Path to script file:         C:\Users\jarro\OneDrive\Documents\44671 STREAMING DATA\Concurrent_Processing_Shared_Resources\00_check_core.py
+ User's Home Directory:       C:\Users\jarro
+ Terminal Environment:        Native Terminal
+ Terminal Type:               cmd.exe
+ Git available in PATH:       True 
+======================================================================
+======================================================================
+
