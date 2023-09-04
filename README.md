@@ -152,3 +152,8 @@ with no process able to move forward and make progress.
 ### Learn More
 
 Check out Wikipedia's article on deadlock and other sources to learn how to prevent and avoid locking issues in concurrent processes. 
+
+## Credits
+Dr. Denise Case 
+
+Source Repo: https://github.com/denisecase/streaming-02-multiple-processes
