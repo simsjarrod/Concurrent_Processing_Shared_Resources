@@ -1,4 +1,4 @@
-# streaming-02-multiple-processes
+# Project Title: streaming-02-multiple-processes
 
 > Multiple processes accessing a shared resource concurrently
 
@@ -40,13 +40,25 @@ Read the output. Read the code.
 Try to figure out what's going on. 
 
 1. What libraries did we import?
-1. Where do we set the TASK_DURATION_SECONDS?
-1. How many functions are defined? 
-1. What are the function names? 
+    - datetime
+    - logging
+    - multiprocessing
+    - os
+    - platform
+    - sqlite3
+    - sys
+    - time
+1. Where do we set the TASK_DURATION_SECONDS? At the start where constants are declared.
+1. How many functions are defined? 7
+1. What are the function names? recreate_database, create_table, drop_table, insert_pet, process_one, process_two, process_three
 1. In general, what does each function do? 
-1. Where does the execution begin? Hint: generally at the end of the file.
-1. How many processes do we start?
-1. How many records does each process insert?
+    - recreate_database drops and recreates a database
+    - create_table creates a table in the database
+    - insert_pet inserts an entry into the table
+    - process_one(two and three) all call the insert_pet function to insert an entry into the table
+1. Where does the execution begin? Hint: generally at the end of the file. `if __name__ == "__main__":`
+1. How many processes do we start? 3
+1. How many records does each process insert? 2
 
 In this first run, we start 3 processes, 
 each inserting 2 records into a shared database 

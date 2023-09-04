@@ -5,3 +5,31 @@ This will clear the console output.
 Run the file once while the tasks are longer. 
 
 Copy and paste the terminal results (when task_duration is 3) here.
+
+2023-09-04 11:36:44,354 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
+PS C:\Users\jarro\OneDrive\Documents\44671_STREAMING_DATA\Concurrent_Processing_Shared_Resources> & C:/Users/jarro/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Users/jarro/OneDrive/Documents/44671_STREAMING_DATA/Concurrent_Processing_Shared_Resources/multiple_processes.py
+2023-09-04 11:37:02,361 - INFO - 
+======================================================================
+STARTING UP.............................
+  Date and Time:    2023-09-04 at 11:37 AM
+  Operating System: nt Windows 10
+  Python Version:   3.11.5
+  Path to Interpreter:  C:\Users\jarro\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe
+======================================================================
+
+2023-09-04 11:37:02,361 - INFO - Called recreate_database().
+2023-09-04 11:37:02,361 - INFO - Called drop_table().
+2023-09-04 11:37:02,366 - INFO - Table 'pets' dropped successfully.
+2023-09-04 11:37:02,367 - INFO - Called create_table().
+2023-09-04 11:37:02,370 - INFO - Table 'pets' created successfully.
+2023-09-04 11:37:02,526 - INFO - Called process_one().
+2023-09-04 11:37:02,527 - INFO -   Called insert_pet() with process=P1, name=Ace, breed=Dog.
+2023-09-04 11:37:02,545 - INFO - Called process_two().
+2023-09-04 11:37:02,546 - INFO -   Called insert_pet() with process=P2, name=Cooper, breed=Rabbit.
+2023-09-04 11:37:02,570 - INFO - Called process_three().
+2023-09-04 11:37:02,571 - INFO -   Called insert_pet() with process=P3, name=Emma, breed=Rabbit.
+2023-09-04 11:37:05,537 - INFO -   Called insert_pet() with process=P1, name=Buddy, breed=Dog.
+2023-09-04 11:37:08,128 - ERROR - ERROR while P2 inserting pet Cooper: database is locked
+2023-09-04 11:37:08,128 - INFO -   Called insert_pet() with process=P2, name=Dingo, breed=Dog.
+2023-09-04 11:37:08,144 - ERROR - ERROR while P3 inserting pet Emma: database is locked
+2023-09-04 11:37:08,146 - INFO -   Called insert_pet() with process=P3, name=Felix, breed=Cat.
